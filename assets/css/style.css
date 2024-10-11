@@ -15,11 +15,9 @@ aside {
 	display: flex;
 	flex-direction: column;
 	width: 20%;
-	border: 2px solid red;
 }
 
 main {
-	border: 2px solid blue;
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -29,13 +27,17 @@ main {
 }
 
 main img {
-	width: 500px;
+	width: 300px;
 	height: auto;
 }
 
 .chat {
 	border: 2px solid #808080;
-	flex-grow: 1;
+	/* flex-grow: 1; */
+	height: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
 }
 
 .new-chat {
@@ -47,7 +49,10 @@ main img {
 }
 
 #maria {
-	flex-grow: 3;
+	/* flex-grow: 3; */
+	height: 20%;
+	display: flex;
+	flex-direction: column;
 }
 
 .top {
@@ -55,10 +60,12 @@ main img {
 	justify-content: space-around;
 	border: 2px solid green;
 	height: 30%;
+	width: 100%;
 }
 
 .new-chat {
 	height: 70%;
+	width: 100%;
 }
 
 .icons {
@@ -71,8 +78,10 @@ main img {
 .profile{
 	display: flex;
 	align-items: center;
-	gap: 4px;
-	padding: 0.5rem;
+	gap: 10px;
+	margin: 3px;
+	border: 2px solid red;
+	padding-left: 3px;
 }
 
 .profile-image img{
