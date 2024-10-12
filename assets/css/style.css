@@ -23,6 +23,7 @@ main {
 	align-items: center;
 	color: #444749;
 	text-align: center;
+	background-color: #f8f8f8;
 }
 
 main img {
@@ -39,20 +40,18 @@ main div {
 }
 
 .chat {
-	border: 2px solid #808080;
-	/* flex-grow: 1; */
 	height: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: left;
 	color: #444749;
+	border-bottom: solid #E8EBE4;
 }
 
 .new-chat {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid yellow;
 	height: 60%;
 }
 
@@ -65,9 +64,9 @@ main div {
 .top {
 	display: flex;
 	justify-content: space-around;
-	border: 2px solid green;
 	height: 30%;
 	width: 100%;
+	border-bottom: solid #E8EBE4;
 }
 
 .new-chat {
@@ -79,7 +78,6 @@ main div {
 	display: flex;
 	gap: 10px;
 	align-items: center;
-	border: 2px solid black;
 }
 
 .profile{
@@ -87,13 +85,14 @@ main div {
 	align-items: center;
 	gap: 10px;
 	margin: 3px;
-	border: 2px solid red;
-	padding-left: 3px;
+	padding: 10px 0;
+	margin-left: 2rem;
 }
 
 .profile-image img{
 	height: 3rem;
 	border-radius: 50%;
+	border: solid #BEC1BB;
 }
 
 #maria-img {
@@ -124,3 +123,21 @@ p {
 #status {
 	color: #BEC1BB;
 }
+
+#name {
+	font-size: 1rem;
+}
+
+.custom-button {
+	background-color: #A491D2;
+	color: #ffffff;
+	width: 60%;
+	height: 50%;
+	border: none;
+	font-size: 1rem;
+}
+
+.custom-button:hover {
+	background-color: #CDC3E6; /* Color de fondo al hacer hover */
+}
+
