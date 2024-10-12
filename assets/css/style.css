@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Roboto", sans-serif;;
+	font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -17,42 +17,21 @@ aside {
 	width: 20%;
 }
 
-main {
-	width: 80%;
-	display: flex;
-	align-items: center;
-	color: #444749;
-	text-align: center;
-	background-color: #f8f8f8;
-}
-
-main img {
-	width: 300px;
-	height: auto;
-}
-
-main div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0 5rem;
-	gap: 10px;
-}
-
 .chat {
 	height: 10%;
 	display: flex;
 	align-items: center;
 	justify-content: left;
 	color: #444749;
-	border-bottom: solid #E8EBE4;
+	border-bottom: 1px solid #E8EBE4;
 }
 
-.new-chat {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 60%;
+.chat h3 {
+	font-size: 1rem;
+}
+
+.chat p {
+	padding-top: 0.2rem;
 }
 
 #maria {
@@ -66,18 +45,7 @@ main div {
 	justify-content: space-around;
 	height: 30%;
 	width: 100%;
-	border-bottom: solid #E8EBE4;
-}
-
-.new-chat {
-	height: 70%;
-	width: 100%;
-}
-
-.icons {
-	display: flex;
-	gap: 10px;
-	align-items: center;
+	border-bottom: 1px solid #E8EBE4;
 }
 
 .profile{
@@ -87,6 +55,10 @@ main div {
 	margin: 3px;
 	padding: 10px 0;
 	margin-left: 2rem;
+}
+
+#maria-profile {
+	margin: 0;
 }
 
 .profile-image img{
@@ -100,44 +72,82 @@ main div {
 	border-radius: 50%;
 }
 
-h1 {
+#name {
+	font-size: 1rem;
 	font-weight: normal;
-	font-size: 3.5rem;
-} 
-
-h2 {
-	font-weight: 300;
-	font-size: 1.2rem;
-	width: 60%;
-} 
-
-h3 {
-	font-weight: normal
-}
-
-p {
-	font-size: 0.8rem;
-	font-weight: 300;
 }
 
 #status {
 	color: #BEC1BB;
+	padding: 0;
 }
 
-#name {
-	font-size: 1rem;
+.icons {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.new-chat {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70%;
+	width: 100%;
 }
 
 .custom-button {
 	background-color: #A491D2;
 	color: #ffffff;
 	width: 60%;
-	height: 50%;
+	height: 3rem;
 	border: none;
 	font-size: 1rem;
 }
 
 .custom-button:hover {
-	background-color: #CDC3E6; /* Color de fondo al hacer hover */
+	background-color: #CDC3E6;
 }
 
+
+main {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	color: #444749;
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+main div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 5rem;
+	gap: 10px;
+}
+
+main img {
+	width: 300px;
+	height: auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 3.5rem;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 1.2rem;
+	width: 60%;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+p {
+	font-size: 0.8rem;
+	font-weight: 300;
+}
